@@ -1,12 +1,14 @@
 import firebase from "firebase/app";
 import "firebase/firestore";
 import "firebase/auth"; // this includes this packages with firebase
-
+export const PROJECT_ID = "ecommerce-react-d1091";
+export const FIREBASE_API_BASE_URL =
+  "https://firestore.googleapis.com/v1beta1/";
 const config = {
   apiKey: "AIzaSyAdfqD2YqY-fjk55r9ZkUcIp7aVMcAI_iU",
   authDomain: "ecommerce-react-d1091.firebaseapp.com",
   databaseURL: "https://ecommerce-react-d1091.firebaseio.com",
-  projectId: "ecommerce-react-d1091",
+  projectId: PROJECT_ID,
   storageBucket: "",
   messagingSenderId: "1030489711571",
   appId: "1:1030489711571:web:f141b278482d46cf"
